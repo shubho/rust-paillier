@@ -15,7 +15,7 @@ extern crate serde_derive;
 pub mod arithimpl;
 pub mod core;
 pub mod encoding;
-mod serialize;
+pub mod serialize;
 pub mod traits;
 
 #[cfg(feature = "keygen")]
